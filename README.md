@@ -6,6 +6,7 @@
 	<li>Suporte para Bind, Factory e Rest</li>
 	<li>Login, Cadastro, Reset de Senha, Upload de fotos (local) e Upload de fotos (camêra), habilitados</li>
 	<li>API REST PHP 7.4</li>
+	<li>Compatível com Android API LEVEL 21 até 29, e IOS 14</li>
 </ul>
 
 <pre>
