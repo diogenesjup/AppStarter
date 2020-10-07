@@ -9,24 +9,18 @@
 </ul>
 
 <pre>
-app
-├── config
-│   └── routes.js
-├── screens
-│   └── App
-│       ├── screens
-│       │   ├── Admin
-│       │   │   ├── screens
-│       │   │   │   ├── Reports
-│       │   │   │   │   └── index.js
-│       │   │   │   └── Users
-│       │   │   │       └── index.js
-│       │   │   └── index.js
-│       │   └── Course
-│       │       ├── screens
-│       │       │   └── Assignments
-│       │       │       └── index.js
-│       │       └── index.js
-│       └── index.js
-└── index.js
+www
+├── assets
+├── commom
+│   └── commom.js
+├── controllers
+│   └── Controllers.js
+├── helpers
+│   └── Helpers.js
+├── models
+│   └── Models.js
+├── views
+│   └── Views.js
+└── app.js
+└── index.html
 </pre>
