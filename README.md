@@ -1,6 +1,6 @@
 <h1>App Starter Cordova + Ionic AppFlow</h1>
 <p>Template para criação de aplicativos Cordova + Ionic AppFlow</p>
-<p><b>Todos os dados de senha presente nesses arquivos são fakes</b></p>
+<p><b>Todos os dados de senhas presentes nesses arquivos são fakes (senha do e-mail SMTP e token da API), altere antes de realizar os seus testes, bem como os dados de conexão MySQL </b></p>
 <ul>
 	<li>Padrão JavaScript MVC</li>
 	<li>Suporte para Bind, Factory e Rest</li>
