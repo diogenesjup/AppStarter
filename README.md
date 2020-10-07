@@ -8,6 +8,7 @@
 	<li>API REST PHP 7.4</li>
 </ul>
 
+<code>
 app
 ├── config
 │   └── routes.js
@@ -28,3 +29,4 @@ app
 │       │       └── index.js
 │       └── index.js
 └── index.js
+</code>
