@@ -1,0 +1,2 @@
+Header always set Access-Control-Allow-Methods: "GET,POST,OPTIONS,DELETE,PUT"
+Header Set Access-Control-Allow-Origin "*"
