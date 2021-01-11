@@ -18,3 +18,78 @@
 [06-Oct-2020 10:10:34 America/Sao_Paulo] PHP Notice:  Undefined variable: a in /Applications/mampstack-7.2.15-0/apache2/htdocs/app-starter/api/v1-imagens-upload.php on line 63
 [06-Oct-2020 10:10:34 America/Sao_Paulo] PHP Notice:  Undefined variable: a in /Applications/mampstack-7.2.15-0/apache2/htdocs/app-starter/api/v1-imagens-upload.php on line 63
 [06-Oct-2020 10:10:34 America/Sao_Paulo] PHP Notice:  Undefined variable: erro in /Applications/mampstack-7.2.15-0/apache2/htdocs/app-starter/api/v1-imagens-upload.php on line 89
+[12-Oct-2020 01:59:25 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /Applications/mampstack-7.2.15-0/apache2/htdocs/app-starter/api/verificar-sms.php on line 28
+[12-Oct-2020 02:00:19 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /Applications/mampstack-7.2.15-0/apache2/htdocs/app-starter/api/token-sms-login.php on line 34
+[12-Oct-2020 02:00:48 America/Sao_Paulo] PHP Notice:  Undefined variable: resetEmail in /Applications/mampstack-7.2.15-0/apache2/htdocs/app-starter/api/cadastro.php on line 50
+[13-Oct-2020 16:52:24 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /Applications/mampstack-7.2.15-0/apache2/htdocs/app-starter/api/token-sms-login.php on line 34
+[13-Oct-2020 16:53:11 America/Sao_Paulo] PHP Notice:  Undefined offset: 0 in /Applications/mampstack-7.2.15-0/apache2/htdocs/app-starter/api/token-sms-login.php on line 34
+[21-Nov-2020 10:23:08 America/Sao_Paulo] PHP Notice:  Undefined variable: PDO in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-ofertas.php on line 20
+[21-Nov-2020 10:23:08 America/Sao_Paulo] PHP Notice:  Undefined variable: PDO in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/teste-api.php on line 18
+[21-Nov-2020 10:23:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/teste-api.php:18
+Stack trace:
+#0 {main}
+  thrown in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/teste-api.php on line 18
+[21-Nov-2020 10:23:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-ofertas.php:20
+Stack trace:
+#0 {main}
+  thrown in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-ofertas.php on line 20
+[21-Nov-2020 10:23:36 America/Sao_Paulo] PHP Notice:  Undefined variable: PDO in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/teste-api.php on line 18
+[21-Nov-2020 10:23:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/teste-api.php:18
+Stack trace:
+#0 {main}
+  thrown in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/teste-api.php on line 18
+[21-Nov-2020 10:23:36 America/Sao_Paulo] PHP Notice:  Undefined variable: PDO in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-ofertas.php on line 20
+[21-Nov-2020 10:23:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-ofertas.php:20
+Stack trace:
+#0 {main}
+  thrown in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-ofertas.php on line 20
+[21-Nov-2020 12:16:50 America/Sao_Paulo] PHP Notice:  Undefined variable: erro in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/upload-imagens.php on line 105
+[21-Nov-2020 12:18:05 America/Sao_Paulo] PHP Notice:  Undefined variable: erro in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/upload-imagens.php on line 105
+[21-Nov-2020 12:18:34 America/Sao_Paulo] PHP Notice:  Undefined index: galeriaImgensImoveis in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-add-dominios.php on line 21
+[21-Nov-2020 12:18:34 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') VALUES(?, 
+                                   ?, 
+                            ' at line 4 in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-add-dominios.php:42
+Stack trace:
+#0 /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-add-dominios.php on line 42
+[21-Nov-2020 12:19:25 America/Sao_Paulo] PHP Notice:  Undefined index: galeriaImgensImoveis in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-add-dominios.php on line 21
+[21-Nov-2020 12:20:56 America/Sao_Paulo] PHP Notice:  Undefined variable: erro in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/upload-imagens.php on line 105
+[21-Nov-2020 12:24:03 America/Sao_Paulo] PHP Notice:  Undefined variable: erro in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/upload-imagens.php on line 105
+[21-Nov-2020 12:25:42 America/Sao_Paulo] PHP Notice:  Undefined variable: erro in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/upload-imagens.php on line 105
+[21-Nov-2020 12:27:41 America/Sao_Paulo] PHP Notice:  Undefined variable: erro in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/upload-imagens.php on line 105
+[21-Nov-2020 12:28:22 America/Sao_Paulo] PHP Notice:  Undefined index: galeriaImgensImoveis in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-add-dominios.php on line 21
+[21-Nov-2020 12:28:29 America/Sao_Paulo] PHP Notice:  Undefined variable: dados in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-remover-dominio.php on line 25
+[21-Nov-2020 12:29:12 America/Sao_Paulo] PHP Notice:  Undefined variable: erro in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/upload-imagens.php on line 105
+[21-Nov-2020 12:30:11 America/Sao_Paulo] PHP Notice:  Undefined variable: erro in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/upload-imagens.php on line 105
+[21-Nov-2020 19:23:34 America/Sao_Paulo] PHP Notice:  Undefined variable: erro in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/upload-imagens.php on line 105
+[21-Nov-2020 19:23:36 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'descricaoo' in 'field list' in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-add-ofertas-categorias.php:43
+Stack trace:
+#0 /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-add-ofertas-categorias.php(43): PDO->prepare('INSERT INTO ofe...')
+#1 {main}
+  thrown in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-add-ofertas-categorias.php on line 43
+[21-Nov-2020 19:24:39 America/Sao_Paulo] PHP Notice:  Undefined variable: erro in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/upload-imagens.php on line 105
+[21-Nov-2020 19:25:53 America/Sao_Paulo] PHP Notice:  Undefined index: id_dominio in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-proc-editar-dominios.php on line 19
+[21-Nov-2020 19:25:53 America/Sao_Paulo] PHP Notice:  Undefined index: nomeloja in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-proc-editar-dominios.php on line 20
+[21-Nov-2020 19:25:53 America/Sao_Paulo] PHP Notice:  Undefined index: urldom in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-proc-editar-dominios.php on line 21
+[21-Nov-2020 19:27:09 America/Sao_Paulo] PHP Notice:  Undefined variable: dados in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-remover-ofertas-categorias.php on line 25
+[21-Nov-2020 20:30:05 America/Sao_Paulo] PHP Notice:  Undefined index: CamposOfertaId in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-salvar-campos-tipo-ofertas.php on line 18
+[21-Nov-2020 20:30:05 America/Sao_Paulo] PHP Notice:  Undefined index: CamposOfertaNome in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-salvar-campos-tipo-ofertas.php on line 19
+[21-Nov-2020 20:30:05 America/Sao_Paulo] PHP Notice:  Undefined index: CamposOfertaTipo in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-salvar-campos-tipo-ofertas.php on line 20
+[21-Nov-2020 20:30:05 America/Sao_Paulo] PHP Notice:  Undefined index: CamposImoveisObrigatorio in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-salvar-campos-tipo-ofertas.php on line 21
+[21-Nov-2020 20:30:05 America/Sao_Paulo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-salvar-campos-tipo-ofertas.php on line 62
+[21-Nov-2020 20:30:05 America/Sao_Paulo] PHP Notice:  Undefined variable: CamposImoveisNome_array in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-salvar-campos-tipo-ofertas.php on line 87
+[21-Nov-2020 20:30:05 America/Sao_Paulo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-salvar-campos-tipo-ofertas.php on line 87
+[21-Nov-2020 20:30:50 America/Sao_Paulo] PHP Notice:  Undefined index: CamposOfertaId in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-salvar-campos-tipo-ofertas.php on line 18
+[21-Nov-2020 20:30:50 America/Sao_Paulo] PHP Notice:  Undefined index: CamposOfertaNome in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-salvar-campos-tipo-ofertas.php on line 19
+[21-Nov-2020 20:30:50 America/Sao_Paulo] PHP Notice:  Undefined index: CamposOfertaTipo in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-salvar-campos-tipo-ofertas.php on line 20
+[21-Nov-2020 20:30:50 America/Sao_Paulo] PHP Notice:  Undefined index: CamposImoveisObrigatorio in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-salvar-campos-tipo-ofertas.php on line 21
+[21-Nov-2020 20:30:50 America/Sao_Paulo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-salvar-campos-tipo-ofertas.php on line 62
+[21-Nov-2020 20:30:50 America/Sao_Paulo] PHP Notice:  Undefined variable: CamposImoveisNome_array in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-salvar-campos-tipo-ofertas.php on line 87
+[21-Nov-2020 20:30:50 America/Sao_Paulo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-salvar-campos-tipo-ofertas.php on line 87
+[22-Nov-2020 11:44:13 America/Sao_Paulo] PHP Notice:  Undefined variable: erro in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/upload-imagens.php on line 105
+[22-Nov-2020 11:49:38 America/Sao_Paulo] PHP Notice:  Undefined variable: CamposImoveisNome_array in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-salvar-campos-tipo-ofertas.php on line 87
+[22-Nov-2020 11:49:38 America/Sao_Paulo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-salvar-campos-tipo-ofertas.php on line 87
+[22-Nov-2020 11:50:53 America/Sao_Paulo] PHP Notice:  Undefined variable: CamposImoveisNome_array in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-salvar-campos-tipo-ofertas.php on line 87
+[22-Nov-2020 11:50:53 America/Sao_Paulo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/admin-salvar-campos-tipo-ofertas.php on line 87
+[25-Nov-2020 22:32:22 America/Sao_Paulo] PHP Notice:  Undefined variable: erro in /Applications/mampstack-7.2.15-0/apache2/htdocs/garimpeiros/www/api/upload-imagens.php on line 105

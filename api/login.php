@@ -11,7 +11,7 @@ require("conexao.php");
 require("funcoes.php");
 
 $loginUsuario = $_POST["loginUsuario"];
-$loginSenha   = $_POST["loginSenha"];
+$loginSenha = $_POST["loginSenha"];
 
 $token = $_POST["token"];
 
@@ -42,7 +42,8 @@ if(count($dados)!=0):
                   'dados'   => $dados);
 
 else:
-
+    
+    // LOGIN COM E-MAIL E SENHA NAO FUNCIONOU
 	$data = array('sucesso' => "400");
 
 endif;

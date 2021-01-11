@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: 06-Out-2020 às 06:21
+-- Generation Time: 11-Out-2020 às 22:17
 -- Versão do servidor: 8.0.15
 -- versão do PHP: 7.2.15
 
@@ -69,8 +69,10 @@ INSERT INTO `arquivos` (`id`, `arquivo`, `data_cadastro`) VALUES
 
 CREATE TABLE `usuarios` (
   `id` int(9) NOT NULL,
+  `token_sms` text,
   `nome` text,
   `email` text,
+  `celular` text,
   `senha` text,
   `data_cadastro` text,
   `ultimo_login` text
@@ -80,9 +82,10 @@ CREATE TABLE `usuarios` (
 -- Extraindo dados da tabela `usuarios`
 --
 
-INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`, `data_cadastro`, `ultimo_login`) VALUES
-(1, 'Diogenes Junior', 'diogenesjunior.ti@gmail.com', '12345', NULL, '06/10/2020 09:52:30:000000'),
-(3, 'Diogenes Junior 2', 'contato@diogenesjunior.com.br', '123456', '04/10/2020 18:31:40:000000', NULL);
+INSERT INTO `usuarios` (`id`, `token_sms`, `nome`, `email`, `celular`, `senha`, `data_cadastro`, `ultimo_login`) VALUES
+(1, '48974', 'Diogenes Junior', 'diogenesjunior.ti@gmail.com', '11945027877', '12345', NULL, '12/10/2020 02:04:19:000000'),
+(3, NULL, 'Diogenes Junior 2', 'contato@diogenesjunior.com.br', '11978031419', '123456', '04/10/2020 18:31:40:000000', NULL),
+(4, NULL, 'Diogenes teste 3', 'diogenes3@diogenes3.com.br', NULL, '12345', '12/10/2020 02:00:48:000000', NULL);
 
 --
 -- Indexes for dumped tables
@@ -126,7 +129,7 @@ ALTER TABLE `arquivos`
 -- AUTO_INCREMENT for table `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -21,6 +21,84 @@ function converterData($entrada){
 
 }
 
+// AMAZON: CONVERTER A URL DE PARCEIROS EM URL SEVEM START
+function url_final_amazon($link_prova,$id_oferta){
+
+  GLOBAL $PDO;
+  $tag_sevenstart = "sevenstart06-20";
+  
+  // RECUPERAR A OFERTA
+  $sql = "SELECT * FROM ofertas WHERE id = '$id_oferta'";
+  $result = $PDO->query( $sql );
+  $oferta = $result->fetchAll( PDO::FETCH_ASSOC );
+
+  $params = $oferta[0]["query_original"];
+
+  $link_final = str_replace($params,"",$link_prova);
+
+  // RECUPERAR OS PAREMETROS
+  $sql = "SELECT * FROM ofertas_query WHERE id_oferta = '$id_oferta'";
+  $result = $PDO->query( $sql );
+  $querys = $result->fetchAll( PDO::FETCH_ASSOC );
+   
+  // MONTAR A URL
+  if(count($querys)==0){
+
+    $link_final = $link_final."?tag=".$tag_sevenstart;
+
+  }else{
+    
+    $a = 0;
+    $parametros = "";
+    while($a<count($querys)):
+
+       if($querys[$a]["chave"]=="tag"):
+       
+         $querys[$a]["valor"] = $tag_sevenstart;
+
+       endif;
+
+       $parametros = $parametros.$querys[$a]["chave"]."=".$querys[$a]["valor"]."&";
+
+      $a++;
+    endwhile;
+
+    $link_final = $link_final."?".$parametros;
+
+  }
+
+  return $link_final;
+
+}
+
+
+
+
+
+
+
+
+// ENVIAR SMS
+function enviarSms($tokenSms,$numero,$mensagem){
+
+  $curl = curl_init();
+
+    curl_setopt_array($curl, array(
+      CURLOPT_URL => "https://api.smsdev.com.br/v1/send?key=$tokenSms&type=9&number=$numero&msg=".urlencode($mensagem),
+      CURLOPT_RETURNTRANSFER => true,
+      CURLOPT_ENCODING => "",
+      CURLOPT_MAXREDIRS => 10,
+      CURLOPT_TIMEOUT => 30,
+      CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+      CURLOPT_CUSTOMREQUEST => "GET",
+      CURLOPT_SSL_VERIFYHOST => 0,
+      CURLOPT_SSL_VERIFYPEER => 0,
+    ));
+
+    $response = curl_exec($curl);
+    $err = curl_error($curl);
+
+}
 
 
 // FUNÇÃO QUE ENVIA OS E-MAILS DE COMUNICAÇÃO
@@ -47,7 +125,7 @@ function enviarEmail($destino,$assunto,$mensagem){
     // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
     $mail->From = 'site@@servidorseguro.cloud'; // Seu e-mail
     $mail->Sender = 'site@@servidorseguro.cloud'; // Seu e-mail
-    $mail->FromName = 'App Starter'; // Seu nome
+    $mail->FromName = 'APP GARIMPEIROS'; // Seu nome
      
     // Define os destinatário(s)
     // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -66,7 +144,7 @@ function enviarEmail($destino,$assunto,$mensagem){
 
     $mail->Body = '<html>
     <head>
-    <title>App Starter</title>
+    <title>APP GARIMPEIROS</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
     </head>
@@ -82,7 +160,7 @@ function enviarEmail($destino,$assunto,$mensagem){
       </tr>
       <tr>
         <td>
-        
+        <h1 style="font-family: Calibri;f">App Starter</h1>
         <p style="padding: 30px;padding-top:10px;font-family: Calibri;font-size: 1.12em;line-height: 1.8em;">
           '.$mensagem.'
         </p>  

@@ -1,7 +1,7 @@
 {
-  "name": "com.welbe.englishverbtestgeneratorapple",
-  "version": "1.42.0",
-  "description": "English Verb Test Generator",
+  "name": "com.diogenesjunior.garimpeiros",
+  "version": "1.7.0",
+  "description": "Garimpeiros - Cashback e descontos",
   "main": "index.html",
   "scripts": {
     "test": "test"
@@ -13,7 +13,7 @@
   "keywords": [
     "tepping"
   ],
-  "author": " English Verb Test Generator",
+  "author": "Garimpeiros Tecnologia",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/diogenesjup/WelbeApp/issues"

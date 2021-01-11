@@ -13,6 +13,7 @@ require("funcoes.php");
 $cadastroNome = $_POST["cadastroNome"];
 $cadastroEmail = $_POST["cadastroEmail"];
 $cadastroSenha = $_POST["cadastroSenha"];
+$cadastroCelular = $_POST["cadastroCelular"];
 
 $token = $_POST["token"];
 
@@ -27,11 +28,12 @@ $dados = $result->fetchAll( PDO::FETCH_ASSOC );
 
 		if(count($dados)==0):
 
-			        $sql = "INSERT INTO usuarios(nome, email, senha, data_cadastro) VALUES(:nome, :email, :senha, :data_cadastro)";
+			        $sql = "INSERT INTO usuarios(nome, email, celular, senha, data_cadastro) VALUES(:nome, :email, :celular, :senha, :data_cadastro)";
 					$stmt = $PDO->prepare( $sql );
 
 					$stmt->bindParam( ':nome', $cadastroNome);
 					$stmt->bindParam( ':email', $cadastroEmail);
+					$stmt->bindParam( ':celular', $cadastroCelular);
 					$stmt->bindParam( ':senha', $cadastroSenha);
 					$stmt->bindParam( ':data_cadastro', $data_cadastro);
 					 

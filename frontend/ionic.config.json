@@ -1,0 +1,7 @@
+{
+  "name": "com.welbe.englishverbtestgeneratorapple",
+  "type": "custom",
+  "integrations": {
+    "cordova": {}
+  }
+}

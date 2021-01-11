@@ -1,0 +1,750 @@
+[22-Nov-2020 13:04:45 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-dominios.php:20
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-dominios.php(20): PDO->query('SELECT * FROM d...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-dominios.php on line 20
+[22-Nov-2020 13:06:47 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_tipo_oferta' in 'where clause' in /home/wwgari/public_html/api/admin-campos-ofertas.php:21
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-campos-ofertas.php(21): PDO->query('SELECT * FROM o...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-campos-ofertas.php on line 21
+[22-Nov-2020 13:07:02 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.ofertas_categoria' doesn't exist in /home/wwgari/public_html/api/admin-ofertas-categorias.php:20
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-ofertas-categorias.php(20): PDO->query('SELECT * FROM o...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-ofertas-categorias.php on line 20
+[22-Nov-2020 13:07:04 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_tipo_oferta' in 'where clause' in /home/wwgari/public_html/api/admin-campos-ofertas.php:21
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-campos-ofertas.php(21): PDO->query('SELECT * FROM o...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-campos-ofertas.php on line 21
+[22-Nov-2020 13:11:27 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-dominios.php:20
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-dominios.php(20): PDO->query('SELECT * FROM d...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-dominios.php on line 20
+[22-Nov-2020 13:11:56 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:02 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:05 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:07 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:07 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:08 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:08 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:08 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:08 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:08 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:44 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:45 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:45 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:45 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:45 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:45 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:45 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:46 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:46 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:46 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:49 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:12:52 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-dominios.php:20
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-dominios.php(20): PDO->query('SELECT * FROM d...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-dominios.php on line 20
+[22-Nov-2020 13:13:09 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:10 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:10 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:10 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:11 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:11 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:11 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:12 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:12 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:13 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:13 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:13 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:13 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:13 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:13 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:14 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:14 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:14 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:40 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:41 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:41 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:41 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:41 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:42 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:42 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:43 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:43 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:44 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:44 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:44 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:44 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:13:47 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-dominios.php:20
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-dominios.php(20): PDO->query('SELECT * FROM d...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-dominios.php on line 20
+[22-Nov-2020 13:14:08 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:10 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:10 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:10 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:10 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:10 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:11 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:11 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:11 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:11 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:12 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:12 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:12 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:12 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:12 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:12 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:13 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:13 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:13 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:13 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:14 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:14 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:15 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:15 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:15 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:15 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:17 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:17 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:17 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[22-Nov-2020 13:14:19 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_tipo_oferta' in 'where clause' in /home/wwgari/public_html/api/admin-campos-ofertas.php:21
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-campos-ofertas.php(21): PDO->query('SELECT * FROM o...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-campos-ofertas.php on line 21
+[22-Nov-2020 13:14:24 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.ofertas_categoria' doesn't exist in /home/wwgari/public_html/api/admin-ofertas-categorias.php:20
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-ofertas-categorias.php(20): PDO->query('SELECT * FROM o...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-ofertas-categorias.php on line 20
+[22-Nov-2020 13:17:35 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.ofertas_categoria' doesn't exist in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php:43
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-ofertas-categorias.php(43): PDO->prepare('INSERT INTO ofe...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php on line 43
+[22-Nov-2020 13:17:37 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.ofertas_categoria' doesn't exist in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php:43
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-ofertas-categorias.php(43): PDO->prepare('INSERT INTO ofe...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php on line 43
+[22-Nov-2020 13:17:37 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.ofertas_categoria' doesn't exist in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php:43
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-ofertas-categorias.php(43): PDO->prepare('INSERT INTO ofe...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php on line 43
+[22-Nov-2020 13:17:37 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.ofertas_categoria' doesn't exist in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php:43
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-ofertas-categorias.php(43): PDO->prepare('INSERT INTO ofe...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php on line 43
+[22-Nov-2020 13:17:37 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.ofertas_categoria' doesn't exist in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php:43
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-ofertas-categorias.php(43): PDO->prepare('INSERT INTO ofe...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php on line 43
+[22-Nov-2020 13:17:37 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.ofertas_categoria' doesn't exist in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php:43
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-ofertas-categorias.php(43): PDO->prepare('INSERT INTO ofe...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php on line 43
+[22-Nov-2020 13:17:37 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.ofertas_categoria' doesn't exist in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php:43
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-ofertas-categorias.php(43): PDO->prepare('INSERT INTO ofe...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php on line 43
+[22-Nov-2020 13:17:39 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.ofertas_categoria' doesn't exist in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php:43
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-ofertas-categorias.php(43): PDO->prepare('INSERT INTO ofe...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php on line 43
+[22-Nov-2020 13:17:39 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.ofertas_categoria' doesn't exist in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php:43
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-ofertas-categorias.php(43): PDO->prepare('INSERT INTO ofe...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php on line 43
+[22-Nov-2020 13:17:39 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.ofertas_categoria' doesn't exist in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php:43
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-ofertas-categorias.php(43): PDO->prepare('INSERT INTO ofe...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php on line 43
+[22-Nov-2020 13:17:40 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.ofertas_categoria' doesn't exist in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php:43
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-ofertas-categorias.php(43): PDO->prepare('INSERT INTO ofe...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php on line 43
+[22-Nov-2020 13:17:40 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.ofertas_categoria' doesn't exist in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php:43
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-ofertas-categorias.php(43): PDO->prepare('INSERT INTO ofe...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php on line 43
+[22-Nov-2020 13:17:40 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.ofertas_categoria' doesn't exist in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php:43
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-ofertas-categorias.php(43): PDO->prepare('INSERT INTO ofe...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php on line 43
+[22-Nov-2020 13:17:40 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.ofertas_categoria' doesn't exist in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php:43
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-ofertas-categorias.php(43): PDO->prepare('INSERT INTO ofe...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php on line 43
+[22-Nov-2020 13:17:40 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.ofertas_categoria' doesn't exist in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php:43
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-ofertas-categorias.php(43): PDO->prepare('INSERT INTO ofe...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-ofertas-categorias.php on line 43
+[22-Nov-2020 13:17:44 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.ofertas_categoria' doesn't exist in /home/wwgari/public_html/api/admin-ofertas-categorias.php:20
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-ofertas-categorias.php(20): PDO->query('SELECT * FROM o...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-ofertas-categorias.php on line 20
+[22-Nov-2020 13:17:48 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_tipo_oferta' in 'where clause' in /home/wwgari/public_html/api/admin-campos-ofertas.php:21
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-campos-ofertas.php(21): PDO->query('SELECT * FROM o...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-campos-ofertas.php on line 21
+[22-Nov-2020 13:18:07 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_tipo_oferta' in 'where clause' in /home/wwgari/public_html/api/admin-campos-ofertas.php:21
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-campos-ofertas.php(21): PDO->query('SELECT * FROM o...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-campos-ofertas.php on line 21
+[22-Nov-2020 13:18:14 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_tipo_oferta' in 'where clause' in /home/wwgari/public_html/api/admin-campos-ofertas.php:21
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-campos-ofertas.php(21): PDO->query('SELECT * FROM o...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-campos-ofertas.php on line 21
+[23-Nov-2020 21:14:20 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-dominios.php:20
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-dominios.php(20): PDO->query('SELECT * FROM d...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-dominios.php on line 20
+[23-Nov-2020 21:14:56 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[23-Nov-2020 21:14:57 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[23-Nov-2020 21:14:57 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[23-Nov-2020 21:14:58 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[23-Nov-2020 21:14:58 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[23-Nov-2020 21:14:58 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[23-Nov-2020 21:14:58 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[23-Nov-2020 21:14:58 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[23-Nov-2020 21:14:58 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[23-Nov-2020 21:14:59 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[24-Nov-2020 09:18:20 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-dominios.php:20
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-dominios.php(20): PDO->query('SELECT * FROM d...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-dominios.php on line 20
+[24-Nov-2020 09:18:48 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[24-Nov-2020 09:18:50 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[24-Nov-2020 09:18:50 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[24-Nov-2020 09:18:51 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[24-Nov-2020 09:18:52 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[24-Nov-2020 09:18:52 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[24-Nov-2020 09:18:53 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[24-Nov-2020 09:18:53 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[24-Nov-2020 09:18:56 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-dominios.php:20
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-dominios.php(20): PDO->query('SELECT * FROM d...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-dominios.php on line 20
+[24-Nov-2020 09:19:45 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[24-Nov-2020 09:19:47 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[24-Nov-2020 09:19:50 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[24-Nov-2020 09:21:01 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_tipo_oferta' in 'where clause' in /home/wwgari/public_html/api/admin-busca-campos-tipo-oferta.php:21
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-busca-campos-tipo-oferta.php(21): PDO->query('SELECT * FROM o...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-busca-campos-tipo-oferta.php on line 21
+[24-Nov-2020 09:21:06 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.ofertas_categoria' doesn't exist in /home/wwgari/public_html/api/admin-ofertas-categorias.php:20
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-ofertas-categorias.php(20): PDO->query('SELECT * FROM o...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-ofertas-categorias.php on line 20
+[24-Nov-2020 09:21:57 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[24-Nov-2020 09:24:44 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[24-Nov-2020 09:24:55 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-dominios.php:20
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-dominios.php(20): PDO->query('SELECT * FROM d...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-dominios.php on line 20
+[24-Nov-2020 09:25:10 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wwgari_plataforma.dominios' doesn't exist in /home/wwgari/public_html/api/admin-add-dominios.php:42
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-add-dominios.php(42): PDO->prepare('INSERT INTO dom...')
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-add-dominios.php on line 42
+[07-Dec-2020 17:45:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Exception Occured in /home/wwgari/public_html/api/api-amazon.php:203
+Stack trace:
+#0 {main}
+  thrown in /home/wwgari/public_html/api/api-amazon.php on line 203
+[07-Dec-2020 17:47:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Exception Occured in /home/wwgari/public_html/api/api-amazon.php:203
+Stack trace:
+#0 {main}
+  thrown in /home/wwgari/public_html/api/api-amazon.php on line 203
+[07-Dec-2020 17:53:17 America/Sao_Paulo] PHP Warning:  fopen(https://webservices.amazon.com/paapi5/searchitems): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/wwgari/public_html/api/api-amazon.php on line 202
+[07-Dec-2020 17:53:17 America/Sao_Paulo] PHP Warning:  stream_get_contents() expects parameter 1 to be resource, boolean given in /home/wwgari/public_html/api/api-amazon.php on line 207
+[07-Dec-2020 17:54:29 America/Sao_Paulo] PHP Warning:  fopen(https://webservices.amazon.com/paapi5/searchitems): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/wwgari/public_html/api/api-amazon.php on line 202
+[07-Dec-2020 17:54:29 America/Sao_Paulo] PHP Warning:  stream_get_contents() expects parameter 1 to be resource, boolean given in /home/wwgari/public_html/api/api-amazon.php on line 207
+[07-Dec-2020 21:34:48 UTC] PHP Warning:  fsockopen(): unable to connect to https://google.com.br:80 (Unable to find the socket transport &quot;https&quot; - did you forget to enable it when you configured PHP?) in /home/wwgari/public_html/api/teste.php on line 3
+[07-Dec-2020 21:35:16 UTC] PHP Warning:  fsockopen(): unable to connect to http://google.com.br:80 (Unable to find the socket transport &quot;http&quot; - did you forget to enable it when you configured PHP?) in /home/wwgari/public_html/api/teste.php on line 3
+[07-Dec-2020 21:35:33 UTC] PHP Warning:  fsockopen(): unable to connect to https://google.com.br:80 (Unable to find the socket transport &quot;https&quot; - did you forget to enable it when you configured PHP?) in /home/wwgari/public_html/api/teste.php on line 3
+[07-Dec-2020 21:35:43 UTC] PHP Warning:  fsockopen(): unable to connect to https://google.com.br:80 (Unable to find the socket transport &quot;https&quot; - did you forget to enable it when you configured PHP?) in /home/wwgari/public_html/api/teste.php on line 3
+[08-Dec-2020 00:46:59 UTC] PHP Fatal error:  Uncaught Exception: Exception Occured in /home/wwgari/public_html/api/api-amazon.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/wwgari/public_html/api/api-amazon.php on line 67
+[08-Dec-2020 00:47:19 UTC] PHP Fatal error:  Uncaught Exception: Exception Occured in /home/wwgari/public_html/api/api-amazon.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/wwgari/public_html/api/api-amazon.php on line 67
+[08-Dec-2020 19:27:50 UTC] PHP Fatal error:  Uncaught Exception: Exception Occured in /home/wwgari/public_html/api/api-amazon.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/wwgari/public_html/api/api-amazon.php on line 74
+[05-Jan-2021 10:32:22 America/Sao_Paulo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/wwgari/public_html/api/admin-add-oferta.php on line 179
+[05-Jan-2021 11:19:44 America/Sao_Paulo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/wwgari/public_html/api/admin-add-oferta.php on line 179
+[05-Jan-2021 15:05:17 America/Sao_Paulo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/wwgari/public_html/api/admin-add-oferta.php on line 179
+[05-Jan-2021 15:42:16 America/Sao_Paulo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/wwgari/public_html/api/admin-add-oferta.php on line 179
+[05-Jan-2021 16:12:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function diff() on string in /home/wwgari/public_html/api/admin-ofertas.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/wwgari/public_html/api/admin-ofertas.php on line 37
+[05-Jan-2021 16:14:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function diff() on string in /home/wwgari/public_html/api/admin-ofertas.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/wwgari/public_html/api/admin-ofertas.php on line 37
+[06-Jan-2021 15:34:45 America/Sao_Paulo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/wwgari/public_html/api/admin-add-oferta.php on line 179
+[06-Jan-2021 17:23:46 America/Sao_Paulo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/wwgari/public_html/api/admin-add-oferta.php on line 179
+[06-Jan-2021 17:26:10 America/Sao_Paulo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/wwgari/public_html/api/admin-add-oferta.php on line 179
+[09-Jan-2021 10:12:19 America/Sao_Paulo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/wwgari/public_html/api/admin-add-oferta.php on line 179
+[10-Jan-2021 05:50:09 UTC] PHP Parse error:  syntax error, unexpected ''img_dom'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/wwgari/public_html/api/admin-editar-ofertas.php on line 82
+[10-Jan-2021 03:08:49 America/Sao_Paulo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/wwgari/public_html/api/admin-proc-editar-oferta.php on line 84
+[10-Jan-2021 03:15:27 America/Sao_Paulo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/wwgari/public_html/api/admin-proc-editar-oferta.php on line 84
+[10-Jan-2021 19:27:42 America/Sao_Paulo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/wwgari/public_html/api/upload-imagens.php on line 41
+[10-Jan-2021 22:40:10 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_usuario' cannot be null in /home/wwgari/public_html/api/admin-salvar-oferta-sinc-amazon.php:135
+Stack trace:
+#0 /home/wwgari/public_html/api/admin-salvar-oferta-sinc-amazon.php(135): PDOStatement->execute()
+#1 {main}
+  thrown in /home/wwgari/public_html/api/admin-salvar-oferta-sinc-amazon.php on line 135

@@ -2,17 +2,19 @@
 // CORRIGIR FUSO HORÁRIO
 date_default_timezone_set('America/Sao_Paulo');
 
-define( 'MYSQL_HOST', 'localhost' );
-define( 'MYSQL_USER', 'root' );
-define( 'MYSQL_PASSWORD', 'superbass' );
-define( 'MYSQL_DB_NAME', 'appstarter' );
-
 /*
 define( 'MYSQL_HOST', 'localhost' );
 define( 'MYSQL_USER', 'root' );
 define( 'MYSQL_PASSWORD', 'superbass' );
-define( 'MYSQL_DB_NAME', 'clubepointz' );
+define( 'MYSQL_DB_NAME', 'garimpeiros' );
 */
+
+
+define( 'MYSQL_HOST', 'localhost' );
+define( 'MYSQL_USER', 'wwgari_diogenes' );
+define( 'MYSQL_PASSWORD', '163Icbu9v8S;' );
+define( 'MYSQL_DB_NAME', 'wwgari_plataforma' );
+
 
 try
 {

@@ -1,0 +1,1 @@
+[18-Jun-2020 23:29:56 America/Sao_Paulo] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in C:\Bitnami\wampstack-7.3.6-1\apache2\htdocs\bealtyconnect\administrativo\excel\PHPExcel\Calculation\Functions.php on line 581
